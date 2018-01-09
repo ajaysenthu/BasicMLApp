@@ -12,6 +12,7 @@
 		210A9FCB20022E6600D568CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A9FC920022E6600D568CA /* Main.storyboard */; };
 		210A9FCD20022E6600D568CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A9FCC20022E6600D568CA /* Assets.xcassets */; };
 		210A9FD020022E6600D568CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A9FCE20022E6600D568CA /* LaunchScreen.storyboard */; };
+		214A627620023E8F0026EB7B /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 214A627520023E8F0026EB7B /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		210A9FCC20022E6600D568CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210A9FCF20022E6600D568CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210A9FD120022E6600D568CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214A627520023E8F0026EB7B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				210A9FC520022E6600D568CA /* AppDelegate.swift */,
 				210A9FC720022E6600D568CA /* ViewController.swift */,
 				210A9FC920022E6600D568CA /* Main.storyboard */,
+				214A627520023E8F0026EB7B /* Resnet50.mlmodel */,
 				210A9FCC20022E6600D568CA /* Assets.xcassets */,
 				210A9FCE20022E6600D568CA /* LaunchScreen.storyboard */,
 				210A9FD120022E6600D568CA /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				210A9FC820022E6600D568CA /* ViewController.swift in Sources */,
+				214A627620023E8F0026EB7B /* Resnet50.mlmodel in Sources */,
 				210A9FC620022E6600D568CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Automatic;
 				DEVELOPMENT_TEAM = SS4NDGM5S9;
 				INFOPLIST_FILE = BasicMLApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -290,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Automatic;
 				DEVELOPMENT_TEAM = SS4NDGM5S9;
 				INFOPLIST_FILE = BasicMLApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
